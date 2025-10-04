@@ -1,14 +1,10 @@
-
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  background: linear-gradient(to right, #a5e0e6, #c5e9ec);
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #c5e9ec; /* Light blue */
+    color: #333;
+    padding: 20px;
 }
-
 
 #navbar{
     width: 100%;
@@ -50,14 +46,11 @@ body {
     text-decoration: underline black 2px;
     font-size: 22px;
 }
- 
-
 
 #navbar button{
     background-color: blue;
     color: white;
     margin-right: 2rem;
-    margin-bottom: 1rem;
     border:none;
     height: 2rem;
     width: 5rem;
@@ -71,52 +64,34 @@ body {
     width: 5.3rem;
 }
 
-
-
-.container {
-  text-align: center;
-  width: 100%;
-  /* height: 10rem; */
-  margin-top: 7rem;
+header {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Heading */
-h1 {
-  color: #3f89dc;
-  margin-bottom: 20px;
+.lang-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4da6ff;
+    color: white;
+    font-size: 16px;
 }
 
-/* Quote Box */
-.quote-box {
-  background: #fff;
-  padding: 20px 30px;
-  border-radius: 15px;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-  max-width: 500px;
-  margin: auto;
+.story {
+    background-color: #e0f7ff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Quote text */
-#quote {
-  font-size: 20px;
-  color: #333;
-  font-style: italic;
-}
-
-/* Button */
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: none;
-  background: #67A1E3;
-  color: black;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-button:hover {
-  background: #67A1E3;
+.youtube-link {
+    display: block;
+    margin-top: 10px;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
 }

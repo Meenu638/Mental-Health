@@ -29,14 +29,19 @@
     color: #a5e0e6;
     font-size: 25px;
 }
-.navOptions{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
-    color: #acb2ba;
-    font-size: 15px;
-    
+
+.navOptions a {
+    text-decoration: none;
+    color: #008080;
+    font-size: 20px;
+    margin: 0 25px;
+    font-weight: 600;
+}
+
+.navOptions a:hover {
+    color: black;
+    text-decoration: underline black 2px;
+    font-size: 22px;
 }
 
 #navbar button{
@@ -56,15 +61,6 @@
     width: 5.3rem;
 }
 
-.navOptions{
-    h3:hover{
-        text-decoration: underline;
-        text-decoration-color: black;
-        text-decoration-thickness: 2px;
-        font-size: 18px;
-        color: black;
-    }
-}
 
 .intro{
     width:100%;

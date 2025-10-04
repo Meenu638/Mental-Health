@@ -22,3 +22,5 @@ function getNewQuote() {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   document.getElementById("quote").innerText = quotes[randomIndex];
 }
+
+
